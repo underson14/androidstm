@@ -1,3 +1,4 @@
+cd "/storage/emulated/0/music"
 rename 's/:/,/g' *
 rename 's/;/, /g' *
 rename 's/"//g' *
