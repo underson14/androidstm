@@ -10,12 +10,12 @@ pip3 uninstall tensorflow==2.4.0 -y
 pip3 install tensorflow==2.3.0
 pip3 install spleeter-gpu
 apt install -y gpac 
-cd stmcreator
-unzip "stmcreator/ni-stem/gpac.zip"
-mv "stmcreator/gpac/" "/stmcreator/ni-stem/"
-chmod -R 755 "stmcreator/ni-stem/"
-chmod -R 755 "stmcreator/ni-stem/gpac"
-chmod -R 755 "stmcreator/creator"
-rm -rf "stmcreator/__MACOSX"
-rm -rf "stmcreator/ni-stem/gpac.zip"
+cd androidstm
+unzip "androidstm/ni-stem/gpac.zip"
+mv "androidstm/gpac/" "/androidstm/ni-stem/"
+chmod -R 755 "androidstm/ni-stem/"
+chmod -R 755 "androidstm/ni-stem/gpac"
+chmod -R 755 "androidstm/creator"
+rm -rf "androidstm/__MACOSX"
+rm -rf "androidstm/ni-stem/gpac.zip"
 apt install -y jo
