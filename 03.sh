@@ -7,7 +7,7 @@ rename 's/$//g' *
 rename 's/%//g' *
 
 for f in *.*; do
-   time "/stmcreator/creator" -i "$f"
+   time "/stmcreator/02" -i "$f"
 done
 
 rm -rf "./pretrained_models"
